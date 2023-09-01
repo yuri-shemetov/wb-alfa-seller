@@ -13,6 +13,6 @@ app.autodiscover_tasks()
 app.conf.beat_schedule = {
     "parse-every-10-min": {
         "task": "products.tasks.parse_feedbacks",
-        "schedule": crontab(minute="*/1"),
+        "schedule": crontab(minute="*/10"),
     },
 }
