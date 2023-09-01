@@ -41,5 +41,5 @@ class Feedback(models.Model):
     )
 
     class Meta:
-        verbose_name = "Рассылка"
-        verbose_name_plural = "Рассылки"
+        verbose_name = "Отзыв"
+        verbose_name_plural = "Отзывы"
